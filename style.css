@@ -1,0 +1,123 @@
+body {
+background:Silver;
+margin:0;
+padding:0;
+
+}
+.container{ 
+margin:0 auto;
+width:1000px;
+}
+#header {
+width:1000px;
+height:100px;
+background:url(images/bg.png);
+}
+#image img{
+width:1000px; 
+height:300px;
+}
+
+#div1 {
+width:320px;
+height:430px;
+background:url(images/bg.png);
+float:left;
+margin:2px;
+padding:4px;
+border-radius:20px;
+text-align:center;
+}
+
+#div1 img {
+border-radius:100px;
+padding:10px;
+width:200px; 
+height:200px; 
+}
+#div2 img {
+border-radius:100px;
+padding:10px; 
+width:200px; 
+height:200px; 
+}
+#div3 img {
+border-radius:100px;
+padding:10px; 
+width:200px; 
+height:200px; 
+}
+
+#div1 p {text-align:justify; font-size:18px; padding:3px;}
+#div2 p {text-align:justify; font-size:18px; padding:3px;}
+#div3 p {text-align:justify; font-size:18px; padding:3px;}
+
+#div1 a:link{font-size:20px; font-family:comic sans MS; }
+#div2 a:link{font-size:20px; font-family:comic sans MS; }
+#div3 a:link{font-size:20px; font-family:comic sans MS; margin-bottom:5px;}
+
+
+#div1:hover{background:gray; color:white;}
+#div2:hover{background:gray; color:white;}
+#div3:hover{background:gray; color:white;}
+#div2 {
+width:320px;
+height:430px;
+background:url(images/bg.png);
+float:left;
+margin:2px;
+padding:4px;
+border-radius:20px;
+text-align:center;
+}
+#div3 {
+width:320px;
+height:430px;
+background:url(images/bg.png);
+float:left;
+margin:2px;
+padding:4px;
+float:right;
+border-radius:20px;
+text-align:center;
+}
+#foot{
+width:1000px; 
+height:80px; 
+background:black; 
+clear:both;
+color:white;
+}
+
+#logo{
+width:250px;
+height:90px;
+padding:5px; 
+margin:2px; 
+color:blue; 
+font-size:3em; 
+font-family:comic sans MS;
+border-right:2px solid gray;
+float:left;
+background:url(images/Header.jpg);
+}
+
+#menu {width:730px; height:90px; float:right;}
+
+#menu ul{margin-top:20px; padding-top:10px;}
+
+#menu li{display:inline; list-style:none;}
+
+#menu a:link{font-size:25px; font-family:comic sans MS; text-decoration:none; margin:5px; background:gray; color:white; padding:15px; border-radius:50px 0px 50px 0px;}
+
+#menu li a:hover{background:black; color:white;}
+
+#image1 {margin:5px; width:40px; height:40px;}
+
+#contact {width:1000px; background:pink;}
+
+#contact h2{padding-left:15px; font-size:3em; color:blue; text-decoration:underline;}
+
+#contact p{padding:10px;}
+
+a:visited{color:white;}
